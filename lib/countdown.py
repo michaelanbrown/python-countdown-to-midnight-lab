@@ -1,4 +1,6 @@
 # your code goes here!
+from time import sleep
+
 def countdown(number):
     while number > 0:
         print(f'{number} SECOND(S)!')

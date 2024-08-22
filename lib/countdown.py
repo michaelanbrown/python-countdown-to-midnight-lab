@@ -8,5 +8,8 @@ def countdown(number):
 
 
 def countdown_with_sleep(number):
+    while number > 0:
+        print(f'{number} SECOND(S)!')
+        number -= 1
 
-    pass
+    print('HAPPY NEW YEAR!')
